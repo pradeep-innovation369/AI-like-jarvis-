@@ -164,7 +164,7 @@ def speak_time():
     engine.say("The current time is " + current_time)
     engine.runAndWait()
 
-NEWS_API_KEY = '4be80880d43c4b509caa9e6db49e9e00'
+NEWS_API_KEY = '
 
 def fetch_news(category):
     valid_categories = ['business', 'entertainment', 'general', 'health', 'science', 'sports', 'technology']
@@ -214,7 +214,7 @@ def speak_location():
 def speak_temperature(city):
     try:
         # Get your OpenWeatherMap API key
-        api_key = "9eeafcbe909b46a8a9a12e4d5150bf83"  # Replace with your own API key
+        api_key = ""  # Replace with your own API key
         base_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"  # Using metric for Celsius
         
         # Make the API request
